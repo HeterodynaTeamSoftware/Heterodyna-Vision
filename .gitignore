@@ -1,0 +1,32 @@
+# .NET build output
+bin/
+obj/
+publish/
+artifacts/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Debug symbols and release archives
+*.pdb
+*.zip
+
+# Heterodyna Vision runtime data - may contain credentials and recordings
+**/data/
+**/recordings/
+**/motion-events.log
+**/profiles/vendors.json
+
+# Local FFmpeg binaries/tools
+**/ffmpeg.exe
+**/ffprobe.exe
+
+# OS files
+Thumbs.db
+.DS_Store
